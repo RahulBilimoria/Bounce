@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0efa2ee756b8f414d940a3ca5cfaeab6, type: 3}
+  m_Name: UpgradeData
+  m_EditorClassIdentifier: 
+  upgradeItems:
+  - upgradeName: Max Weapons
+    currentIndex: 3
+    unlocked: 1
+    unlockCost: 0
+    UpgradeLevels:
+    - buyCost: 0
+      value: 1
+    - buyCost: 30
+      value: 2
+    - buyCost: 150
+      value: 3
+    - buyCost: 400
+      value: 4
+    - buyCost: 1000
+      value: 5
+  - upgradeName: Points Multiplier
+    currentIndex: 0
+    unlocked: 1
+    unlockCost: 0
+    UpgradeLevels:
+    - buyCost: 0
+      value: 1
+    - buyCost: 300
+      value: 2
+    - buyCost: 800
+      value: 3
+    - buyCost: 1200
+      value: 4
+    - buyCost: 2000
+      value: 5
+  - upgradeName: Tap Combo
+    currentIndex: 0
+    unlocked: 0
+    unlockCost: 600
+    UpgradeLevels:
+    - buyCost: 0
+      value: 2
+    - buyCost: 1000
+      value: 3
+    - buyCost: 2000
+      value: 5
+    - buyCost: 4000
+      value: 8
+    - buyCost: 8000
+      value: 15
+  - upgradeName: Tap Strength
+    currentIndex: 0
+    unlocked: 1
+    unlockCost: 150
+    UpgradeLevels:
+    - buyCost: 0
+      value: 5
+    - buyCost: 100
+      value: 10
+    - buyCost: 200
+      value: 15
+    - buyCost: 300
+      value: 20
+    - buyCost: 500
+      value: 25
+    - buyCost: 800
+      value: 30
+    - buyCost: 1000
+      value: 35
+    - buyCost: 1350
+      value: 40
+    - buyCost: 1600
+      value: 45
+    - buyCost: 2000
+      value: 50
+  - upgradeName: Weapon Upgrade
+    currentIndex: 1
+    unlocked: 1
+    unlockCost: 0
+    UpgradeLevels:
+    - buyCost: 0
+      value: 0
+    - buyCost: 100
+      value: 1
+    - buyCost: 400
+      value: 2
+    - buyCost: 900
+      value: 3
+    - buyCost: 1500
+      value: 4
+    - buyCost: 3000
+      value: 5
+  - upgradeName: Spawn Interval
+    currentIndex: 0
+    unlocked: 1
+    unlockCost: 0
+    UpgradeLevels:
+    - buyCost: 0
+      value: 10
+    - buyCost: 100
+      value: 9
+    - buyCost: 200
+      value: 8
+    - buyCost: 300
+      value: 7
+    - buyCost: 400
+      value: 6
+    - buyCost: 500
+      value: 5
